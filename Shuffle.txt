@@ -1,0 +1,5 @@
+function shuffleArray(names) {
+var newArray = [];
+names.sort() = Math.random() - 0.5)
+var neww = newArray.concat(names) }
+shuffleArray([“Андрій”, “Марія”, “Василь”, “Петро”])
