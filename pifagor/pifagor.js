@@ -7,7 +7,7 @@ var i, j;
   for(j = 1; j <= 9; j++) {
     var div_cell = document.createElement("div");
     
-    className = (i ==j) ? "cell cell-main" : "cell";
+    className = (i == j) ? "cell cell-main" : "cell";
     className = (i > j) ? "cell cell-under" : className;
     className = (i < j) ? "cell cell-over" : className;
     
