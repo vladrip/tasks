@@ -6,11 +6,11 @@ function countOddEvenNumbers(n) {
     var arr = Array.from(n);
     arr.forEach(function(oddEven) {
       if (oddEven % 2 === 0) {
-        result.odd += 1;
-      } else {
         result.even += 1;
+      } else {
+        result.odd += 1;
       }
     });
   
     return result;
-  }
+}
