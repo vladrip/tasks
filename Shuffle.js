@@ -1,6 +1,8 @@
-function shuffleArray(names) {
-var newArray = [];
-names.sort() = Math.floor(Math.random() * names.length);
-var neww = newArray.concat(names);
-return newArray}
-shuffleArray(["Andriy", "Mary", "Vasyan", "Petrol"])
+function shuffleArray(n) {
+    for (let i = n.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [n[i], n[j]] = [n[j], n[i]];
+    }
+    return n;
+}
+shuffleArray(["Andrii" , "Mary" , "Vasya" , "Petro"])
